@@ -1,0 +1,31 @@
+{
+  "name": "image_drive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./APIs/index.js && sass",
+    "node-sass": "node-sass",
+    "sass": "node-sass -wr src/styles/main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reezekim/image_drive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reezekim/image_drive/issues"
+  },
+  "homepage": "https://github.com/reezekim/image_drive#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash-id": "^0.14.0",
+    "lowdb": "^1.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
